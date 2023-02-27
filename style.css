@@ -1,0 +1,67 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+header{
+	background-color: #0020F4;
+	width: 1920px;
+	height: 388px;
+}
+
+
+.logo{
+	width: 115px;
+}
+
+ul{
+	list-style-type: none;
+}
+
+li{
+	display: inline-block;
+}
+
+.buttons{
+	color: #FFFFFF;
+	text-transform:uppercase;
+}
+.main-button{
+	margin: 64px 1007px 305px 843px;
+}
+
+.about-button{
+	margin: 64px 869px 305px 956px;
+}
+
+.service-button{
+	margin: 64px 734px 305px 1104px;
+}
+
+.project-button{
+	margin: 64px 598px 305px 1231px;
+}
+
+.partner-button{
+	margin: 45px 18px 287px 1364px;
+}
+.contact-button{
+	color: #171717;
+	background-color: #FFFFFF;
+	border-radius: 28px;
+	text-transform: uppercase;
+	margin: 45px 241px 287px 1519px;
+	padding: 18px 36px 18px 36px;
+}
+
+.main-img{
+	margin-top:-133px ;
+}
+section{
+	width: 1195px;
+	margin: auto;
+}
