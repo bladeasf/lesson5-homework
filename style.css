@@ -1,6 +1,13 @@
 *{
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body{
+	max-width: 100%;
+	overflow-x: hidden;
 }
 
 a{
@@ -10,7 +17,11 @@ a{
 header{
 	background-color: #0020F4;
 	width: 1920px;
-	height: 388px;
+	padding: 40px 0px 282px 0px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	column-gap: 488px;
 }
 
 
@@ -24,44 +35,31 @@ ul{
 
 li{
 	display: inline-block;
+	margin-left: 43px;
 }
 
 .buttons{
 	color: #FFFFFF;
 	text-transform:uppercase;
 }
-.main-button{
-	margin: 64px 1007px 305px 843px;
-}
 
-.about-button{
-	margin: 64px 869px 305px 956px;
-}
-
-.service-button{
-	margin: 64px 734px 305px 1104px;
-}
-
-.project-button{
-	margin: 64px 598px 305px 1231px;
-}
-
-.partner-button{
-	margin: 45px 18px 287px 1364px;
-}
 .contact-button{
 	color: #171717;
 	background-color: #FFFFFF;
 	border-radius: 28px;
 	text-transform: uppercase;
-	margin: 45px 241px 287px 1519px;
 	padding: 18px 36px 18px 36px;
 }
-
+/*
 .main-img{
 	margin-top:-133px ;
 }
+*/
+main{
+	margin-top: -200px;
+}
 section{
+	width: 100%;
 	max-width: 1195px;
 	margin: auto;
 }
@@ -73,32 +71,23 @@ h2{
 	margin-bottom: 60px;
 }
 
-.first-square{
-	margin: 60px 25px 60px 362px;
+.images-container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
-
-.second-square{
-	margin: 60px 25px 60px 25px;
-}
-
-.third-square{
-	margin: 60px 25px 60px 25px;
-}
-
-.fourth-square{
-	margin: 123px 25px 60px 25px;
-}
-
-.fifth-square{
-	margin: 123px 25px 60px 25px;
-}
-
 
 div{
 	width: 951px;
 	margin: auto;
 	color: #171717;
 	font: normal;
+}
+
+.paragraph-container{
+	width: 100%;
+	max-width: 951px;
+	margin: 0 auto;
 }
 
 .top-paragraph{
@@ -120,49 +109,42 @@ div{
 	color: #FFFFFF;
 	background-color: #0A22F4;
 	border-radius: 28px;
-	padding: 18px 77px 18px 77px;
-	margin: 76px 789px 180px 790px;
+	padding: 18px 57px;
+}
+
+.button-container{
+	display: flex;
+	justify-content: center;
 }
 
 footer{
-	background-color: blue;
-	max-width: 1920px;
+	background-color: #0A22F4;
 	width: 100%;
-	height:1080px ;
+	margin-top: 180px;
+	height: 1080px;
+	padding-top: 275px;
+	padding-left: 240px;
 	margin-top: 180px;
 }
 
+
 .footer-contact{
 	color: #FFFFFF;
-	margin: 275px 1518px 30px 240px;
-	display: inline-block;
 }
+
 .footer-paragraph{
 	color: #FFFFFF;
-	margin: 30px 1217px 638px 240px;
+	width: 463px;
 }
 
-.map{
-	max-width: 463px;
-	display: inline-block;
-	width: 100%;
-	margin: -600px 1207px 383px 240px;
+.phone-container,
+.email-container{
+	display: flex;
+	align-items: center;
 }
 
-.phone-number{
-	color: #FFFFFF;
-	max-width: 178px;
-	margin: auto;
-	margin-top: 58px;
-}
-
-.gmail{
-	color: #FFFFFF;
-}
-
-.phone-icon{
+.phone-icon,
+.gmail-icon{
 	background-color: #FFFFFF;
-	border-radius: 50px;
-	padding:22px;
-	margin: -600px 1610px 243px 240px;
+	
 }
